@@ -22,13 +22,8 @@
         }
     });
 
-    document.getElementById('phone').addEventListener('input', function(event) {
-        const pattern = /^[0-9]{3}-[0-9]{3}-[0-9]{4}$/;
-        if (!pattern.test(event.target.value)) {
-            alert('Phone number must be in the format 123-456-7890');
-        }
-    });
-
+    
+    
     document.getElementById('email').addEventListener('input', function(event) {
         const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!pattern.test(event.target.value)) {
